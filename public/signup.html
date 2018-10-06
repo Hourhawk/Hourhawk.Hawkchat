@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link rel="stylesheet" href="./utility/hawkchat.css">
+		<title>Hawkchat - An intuitive support web application for businesses.</title>
+	</head>
+	<body>
+		<div class="navbar">
+			<ul class="navbar-ul">
+				<li><a href="#" class="navbar-link">Home</a></li>
+				<li><a href="./installation" class="navbar-link">Installation</a></li>
+				<li><a href="./webpanel" class="navbar-link">Web Panel</a></li>
+			</ul>
+		</div>
+		<div class="landing">
+			<img src="./img/logo.png" class="landing-logo">
+			<h1 class="landing-title">Hawkchat</h1>
+			<h2 class="landing-sub-title">Signup</h2>
+			<p class="landing-paragraph">To secure accounts and for you to gain access to your very own Hawkchat control panel, you must first create an account. We appreciate your cooperation and willingness to work with us.</p>
+			<div class="signup-form">
+				<div class="hawkchat-form-group hawkchat-form-error-1 hide" id="signup-error">
+					Message from Server.
+				</div>
+				<div class="hawkchat-form-group">
+					<input type="email" class="form-control hawkchat-input" id="signup-email" placeholder="email@hawkchat.net">
+				</div>
+				<div class="hawkchat-form-group">
+					<input type="password" class="form-control hawkchat-input" id="signup-password" placeholder="Password">
+				</div>
+				<div class="hawkchat-form-group">
+					<input type="text" class="form-control hawkchat-input" id="signup-affiliation" placeholder="What's your affiliation? (Independent, Developer, Business, etc.)">
+				</div>
+				<div class="hawkchat-form-group">
+					<a class="btn signup-btn" href="#" id="signup-btn">Signup</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="navbar">
+			<ul class="navbar-ul">
+				<li><a href="#" class="navbar-link">Home</a></li>
+				<li><a href="./installation" class="navbar-link">Installation</a></li>
+				<li><a href="./webpanel" class="navbar-link">Web Panel</a></li><br>
+				<li><a href="#" class="navbar-link">Terms of Service</a></li>
+				<li><a href="#" class="navbar-link">Privacy Policy</a></li><br><br>
+				<li>All rights reserved.</li>
+			</ul>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="./utility/hawkchat.js"></script>
+	</body>
+</html>

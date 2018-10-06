@@ -1,0 +1,8 @@
+Red Orange: #dd6018
+Bluish Gray: #e1eaf2
+Blue Black: #202e3a
+Light Blue Black: #3c566d
+
+express, socket.io, mysql, shortid, email-validator
+
+Security - Accesibility - Expense
