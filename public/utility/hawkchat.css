@@ -269,3 +269,27 @@ html, body {
 	}
 }
 /* Signup */
+/* Login */
+.login-form {
+	padding-top: 1em;
+	margin: 0 auto;
+	max-width: 40%;
+	text-align: center;
+}
+.login-btn {
+	border: 2px solid #dd6018;
+	color: #dd6018;
+	max-width: 100%;
+	margin-top: 1em;
+	background-color: rgba(0,0,0,0);
+}
+.login-btn:hover, .login-btn:focus {
+	color: #fff;
+	background-color: #dd6018;
+}
+@media (max-width: 1006px) {
+	.login-form {
+		max-width: 80%;
+	}
+}
+/* Login */
